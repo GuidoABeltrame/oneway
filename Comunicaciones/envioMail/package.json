@@ -1,0 +1,19 @@
+{
+  "name": "enviomail",
+  "version": "1.0.0",
+  "description": "\"proyecto para mail\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemailer": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/estilosform.css">
+<link rel="shortcut icon" href="http://www.oneway.com.ar/images/ico/favicon.ico">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<title>Novedades Oneway</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="http://www.oneway.com.ar/images/logo.png" alt=""/>
+    </header>
+    <section class="presentacion">
+      <h4>Estimados padres:</h4>
+      <p>Nos comunicamos por esta vía para informarles que, como es de publico conocimiento, a partir del mes de marzo 2019 la empresa puso a disposicion unidades para que los
+      alumnos que tengan actividades y se retiren 16:30 desde la sede Olivos tengan servicio disponible para dirigirse a sus hogares. <br/><br/>
+      Los invitamos a que nos indiquen a cuales son las actividades de los chicos para poder determinar la cantidad y asignar la unidad mas acorde al servicio.
+    </section>
+    <hr>
+    <section class="precios">
+      <h3>Precios</h3>
+      <ul>
+        <li><b>$250</b> Abonados de One Way</p></li>
+        <li><p><b>$350</b> NO Abonados de One Way</p></li>
+      </ul>
+      <p>    * El costo corresponde a 1 traslado</p>
+      <p>    * Precio Final</p>
+    </section>
+    <hr>
+    <section class="datos-alumno">
+      <h3>Cliente</h3>
+      <p>Ingresa tus datos</p>
+      <input type="text" id="email" name="mail" value="" placeholder="Ingresa tu email..">
+      <input type="text" id="nombreCliente" name="nombre" value="" placeholder="Ingresa tu nombre..">
+    </section>
+    <hr>
+    <section class="datos-alumno">
+      <h3>Alumno</h3>
+      <p>Agrega los datos de 1 solo hijo. Al enviar los datos vas a poder agregar los datos del proximo si es el caso</p>
+      <input type="text" id="nombreAlumno" name="alumno" value="" placeholder="Alumno">
+      <input type="text" id="cursoAlumno" name="curso" value="" placeholder="Curso">
+    </section>
+    <hr>
+    <section class="recorrido">
+      <h3>Recorrido</h3>
+      <p>Indica el recorrido que corresponde según tu zona.</p>
+      <div class="checks">
+        <div class="row">
+          <input type="radio" id="centro_radio" name="recorrido" value="Centro">
+          <label for="centro">Centro</label>
+        </div>
+        <div class="row">
+          <input type="radio" id="barrio_radio" name="recorrido" value="Barrio Parque">
+          <label for="bp">Barrio Parque</label>
+        </div>
+        <div class="row">
+          <input type="radio" id="belgrano_radio" name="recorrido" value="Belgrano">
+          <label for="Belgrano">Belgrano</label>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="servicios">
+      <h3>Servicios</h3>
+      <p>Indicanos que dias tomas servicio por la tarde para actividades de deporte<p>
+        <div class="tabla-servicios">
+          <table>
+  		      <tr>
+  			      <th>Dia</th>
+  			      <th>Desde Campus 16:30</th>
+  			      <th>Desde Olivos 16:30</th>
+  		      </tr>
+        		<tr>
+        			<td>Lunes</td>
+        			<td><input id="ch1" type="checkbox"></td>
+        			<td><input id="ch2" type="checkbox"></td>
+        		</tr>
+        		<tr>
+        			<td>Martes</td>
+        			<td><input id="ch3" type="checkbox"></td>
+        			<td><input id="ch4" type="checkbox"></td>
+        		</tr>
+        		<tr>
+        			<td>Miercoles</td>
+        			<td><input id="ch5" type="checkbox"></td>
+        			<td><input id="ch6" type="checkbox"></td>
+        		</tr>
+        		<tr>
+        			<td>Jueves</td>
+        			<td><input id="ch7" type="checkbox"></td>
+        			<td><input id="ch8" type="checkbox"></td>
+        		</tr>
+		      </table>
+    </section>
+    <section class="comentarios">
+      <textarea name="name" id="coments" rows="8" cols="80" placeholder="Comentarios.."></textarea>
+    </section>
+    <section class="btn-enviar">
+      <input id="btn_enviar" type="submit" name="enviar" value="Enviar"></input>
+      <input id="btn_enviar2" type="submit" name="enviar" value="Enviar"></input>
+    </section>
+  </div>
+<script src="js/index.js"></script>
+</body>
+</html>

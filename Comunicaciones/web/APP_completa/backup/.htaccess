@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^lz(.*)/$ /home/aysalarm/public_html/index.php?%{QUERY_STRING} [L]
+RewriteRule ^myimg(.*)$ /home/aysalarm/public_html/index.php?ig=1&%{QUERY_STRING} [L]
+</IfModule>
+
+
+# BEGIN WordPress
+
+# END WordPress

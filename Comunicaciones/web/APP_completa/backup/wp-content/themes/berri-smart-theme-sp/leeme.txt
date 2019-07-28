@@ -1,0 +1,24 @@
+============================================================
+Berri Smart 1.0 WordPress Theme
+Theme page: http://www.berriart.com/smart-wordpress-theme-sp/
+Theme Demo Page: http://demo.berriart.com/index.php?wptheme=Berri+Smart
+============================================================
+
+Este theme está bajo licencia Creative Commons By-Sa. (http://creativecommons.org/licenses/by-sa/3.0/)
+
+Berri Smart es un theme de Wordpress de dos columnas. No tiene muchas imágenes y tiene un sencillo pero organizado y elegante diseño. El footer tiene más infomación de la que se suele mostrar en otros themes de wordpress. Se recomienda usar con él, el plugin wp-sticky. Preparado para usar Widgets:
+
+Cómo instalar:
+1. Copia el directorio "berri-smart-sp" al directorio de themes de tu wordpress (wp-content/themes/)
+2. Vete al administrador, al menú "Presentación"
+3. Elige el Theme "Berri Smart"
+4. Eso es todo ;)
+
+Usa el theme sin restricciones, pero tienes que dejar el link a www.berriart.com, sito en la parte inferior del theme, si es usado en algún lugar público y debes incluir este archivo leeme.txt con él si piensas redistribuirlo.
+
+Aunque recomiende usar el plugin wp-sticky (http://wordpress.org/extend/plugins/wp-sticky/), puede ser utilizado sin ningún tipo de problema aunque no incluyas dicho plugin. Simplemente me gusta y el theme viene preparado por si lo instalas.
+
+Si tienes alguna duda, sugerencia, comentario, ... en referencia a este theme, contacta conmigo en: alberto@berriart.com o visita: http://www.berriart.com/smart-wordpress-theme-sp/
+
+Berriart
+http://www.berriart.com/

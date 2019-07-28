@@ -1,0 +1,24 @@
+{
+  "name": "Extracurriculares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server",
+    "des": "nodemon --exec node src/server/index.js",
+    "development": "nodemon src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "css-loader": "^2.1.1",
+    "express": "^4.16.4",
+    "nodemailer": "^6.1.1",
+    "style-loader": "^0.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}

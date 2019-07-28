@@ -1,0 +1,133 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  /* padding: 30px; */
+  display: flex;
+  flex-direction: column;
+}
+h4{
+  margin: 15px;
+}
+.header{
+  align-self: center;
+}
+.header img {
+  margin-bottom: 20px;
+  width: 200px;
+  height: 90px;
+}
+.presentacion{
+  text-align: justify;
+  /* margin: 15px; */
+}
+table{
+  /* border: 1px solid black; */
+  font-size: 15px;
+}
+th{
+  height: 80px;
+}
+td{
+  /* border-bottom: 1px solid black; */
+  text-align: center;
+  /* padding: 0 80px; */
+}
+td input {
+  width: 15px;
+  height: 15px;
+}
+.precios{
+  margin: 10px 0;
+  /* font-size: 20px; */
+  /* font-weight: bold; */
+}
+.precios ul{
+  margin: 15px 20px;
+}
+.datos-alumno{
+  margin: 20px 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.datos-alumno h3,p{
+  margin-bottom: 10px;
+}
+.datos-alumno input{
+  width: 330px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  /* font-weight: bold; */
+  padding-left: 20px;
+}
+.datos-alumno input:invalid{
+  box-shadow: 0 0 5px 1px red;
+}
+.recorrido{
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.recorrido h3{
+  margin-bottom: 10px;
+}
+.checks{
+  display: flex;
+  margin: 20px;
+}
+.checks input {
+  min-width: 20px;
+  margin: 0 20px;
+}
+.row{
+}
+.servicios{
+  display: flex;
+  flex-direction: column;
+}
+.servicios h3{
+  margin: 10px 0;
+}
+.servicios .tabla-servicios{
+  display: flex;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.btn-enviar input {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #f6921e;
+  background-color: #f6921e;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 20px;
+}
+textarea{
+  max-width: 400px;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  textarea{
+    max-width: 80%;
+    min-width: 80%;
+  }
+  .checks{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+  }
+  .row{
+    margin: 5px;
+  }
+  .datos-alumno input{
+    width: 90%;
+  }
+}

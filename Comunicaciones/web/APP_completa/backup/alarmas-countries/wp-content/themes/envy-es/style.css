@@ -1,0 +1,776 @@
+/*  
+Theme Name: Envy
+Theme URI: http://www.wpdesigner.com/
+Description: Envy WordPress theme of the Seven Deadly Sins theme series by Small Potato
+Version: 1
+Author: Small Potato
+Author URI: http://www.wpdesigner.com/
+
+*/
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, form{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Verdana, Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: top;
+	background: #000000;
+	color: #cc9966;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Verdana, Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+form, textarea{
+	font-family: Verdana, Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 10px;
+}
+
+a{
+	text-decoration: underline;
+	color: #cc9966;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a img{
+	border: 0;
+         color: #000000
+}
+
+.alignleft{ float: left; }
+.alignright{ float: right; }
+
+p{
+	padding: 10px 0 0;
+}
+
+blockquote{
+	margin: 10px 0 0;
+	font-family: Georgia, Arial, Helvetica, Sans-serif;
+	font-size: 12px;
+	background: #000000;
+	color: #000000;
+}
+
+blockquote p{
+	padding: 10px;
+}
+
+blockquote blockquote{
+	margin: 12px;
+	background: #000000;
+}
+
+.topbar{
+	float: left;
+	width: 100%;
+	margin: 0 0 10px;
+	border-bottom: 1px solid #000000;
+	font-size: 20px;
+	background: #000000;
+	color: #000000;
+}
+
+.topbar a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.topbar a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+
+.topbarwrap{
+	margin: 0 auto;
+	width: 970px;
+	text-align: left;
+}
+
+.topbar ul{
+	float: left;
+	width: 970px;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.topbar ul li.skip{
+	float: right;
+}
+
+.topbar ul li.skip a{
+	padding: 0 19px 0 0;
+	background: url() no-repeat 100% 3px;
+}
+
+.clear{
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+#container{
+	margin: 0 auto;
+	width: 970px;
+	text-align: left;
+}
+
+.firstmenu{
+	float: left;
+	width: 970px;
+	background: url() no-repeat;
+}
+
+.firstmenu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 20px 0 20px;
+}
+
+.firstmenu ul li{
+	float: left;
+	background: url() no-repeat right top;
+}
+
+.firstmenu ul li a{
+	display: block;
+	padding: 8px 48px 8px 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #cc9966;
+}
+
+.firstmenu ul li a:hover{
+	text-decoration: underline;
+}
+
+.firstmenu ul li.first a{
+	padding: 8px 48px 8px 39px;
+	background: url() no-repeat;
+}
+
+.firstmenu ul li.last{
+	background: url() no-repeat right top;
+}
+
+.firstmenu ul li.last a{
+	padding: 8px 39px 8px 10px;
+}
+
+.firstmenu ul li#firstcurrent{
+	background: #000000 url() no-repeat right top;
+}
+
+.firstmenu ul li#firstcurrent a{
+	background: url() no-repeat;
+	color: #cc9966;
+}
+
+.firstmenu ul li#current{
+	margin-left: -38px;
+	background: #cc9966 url() no-repeat right top;
+}
+
+.firstmenu ul li#current a{
+	padding: 8px 48px;
+	background: url() no-repeat;
+	color: #cc9966;
+}
+
+.firstmenu ul li#lastcurrent{
+	margin-left: -38px;
+	background: #cc9966 url() no-repeat right top;
+}
+
+.firstmenu ul li#lastcurrent a{
+	padding: 8px 39px 8px 48px;
+	background: url() no-repeat;
+	color: #cc9966;
+}
+
+.firstmenu ul li.floatright{
+	float: right;
+	background: url() no-repeat right top;
+}
+
+.firstmenu ul li.floatright a{
+	padding: 8px 39px;
+	background: url() no-repeat left top;
+}
+
+.header, .headerwrap{
+	float: left;
+	width: 970px;
+	background: #000000 url() no-repeat left bottom;
+}
+
+.headerwrap{
+	padding: 0 0 60px 0;
+	background: url() no-repeat;
+}
+
+.banner, .about{
+	margin: 10px 0 0 10px;
+	display: inline;
+	background: url() repeat-x;
+}
+
+.banner, .banner-r, .banner-l{
+	float: left;
+	width: 630px;
+	height: 123px;
+	overflow: hidden;
+} 
+
+.about, .about-r, .about-l{
+	float: left;
+	width: 310px;
+	height: 123px;
+	overflow: hidden;
+}
+
+.banner-r, .about-r{
+	background: url() no-repeat right top;
+}
+
+.banner-l, .about-l{
+	background: url() no-repeat;
+}
+
+.banner h1, .banner .description{
+	padding: 17px 25px 0;
+	font-family: Georgia, Arial, Helvetica, Sans-serif;
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #cc9966;
+}
+
+.banner h1 a{
+	text-decoration: none;
+	color: #cc9966;
+}
+
+.banner h1 a:hover{
+	text-decoration: underline;
+}
+
+.banner .description{
+	padding: 0px 25px;
+	font-size: 18px;
+	line-height: 48px;
+	color: #cc9966;
+}
+
+.banner .search{
+	padding: 16px 0 0 25px;
+}
+
+.banner .search form, .banner .search form input{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 11px;
+	background-color: transparent;
+}
+
+.banner .search form .keyword{
+	float: left;
+	width: 540px;
+	height: 30px;
+	overflow: hidden;
+	background: #cc9966 url() no-repeat;
+}
+
+.banner .search form .keyword #s{
+	padding: 8px 0 0 10px;
+	width: 95%;
+}
+
+.banner .search form input#searchsubmit{
+	margin-left: 6px;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	display: inline;
+}
+
+.about ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 25px 0;
+	line-height: 24px;
+}
+
+.about ul li{
+	padding: 19px 0 0 15px;
+	background: url() no-repeat 0 26px;
+}
+
+.about ul li h2{
+	font-family: Georgia, Arial, Helvetica, Sans-serif;
+	font-size: 18px;
+	color: #cc9966;
+}
+
+.about ul li h2 a{
+	text-decoration: none;
+	color: #cc9966;
+}
+
+.about ul li h2 a:hover{
+	text-decoration: underline;
+}
+
+
+
+.secondmenu{
+	float: left;
+	width: 970px;
+	background: url();
+}
+
+.secondmenu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 20px;
+}
+
+.secondmenu ul li{
+	float: left;
+	background: url() no-repeat right top;
+}
+
+.secondmenu ul li a{
+	display: block;
+	padding: 8px 48px 8px 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #cc9966;
+}
+
+.secondmenu ul li a:hover{
+	text-decoration: underline;
+}
+
+.secondmenu ul li.first a{
+	padding: 8px 48px 8px 39px;
+	background: url() no-repeat;
+}
+
+.secondmenu ul li.last{
+	background: url() no-repeat right top;
+}
+
+.secondmenu ul li.last a{
+	padding: 8px 39px 8px 10px;
+}
+
+.secondmenu ul li#firstcurrent{
+	background: #000000 url() no-repeat right top;
+}
+
+.secondmenu ul li#firstcurrent a{
+	background: url(gif) no-repeat;
+	color: #000000;
+}
+
+.secondmenu ul li#current{
+	margin-left: -38px;
+	background: #000000 url() no-repeat right top;
+}
+
+.secondmenu ul li#current a{
+	padding: 8px 48px;
+	background: url() no-repeat;
+	color: #000000;
+}
+
+.secondmenu ul li#lastcurrent{
+	margin-left: -38px;
+	background: #000000 url() no-repeat right top;
+}
+
+.secondmenu ul li#lastcurrent a{
+	padding: 8px 39px 8px 48px;
+	background: url() no-repeat;
+	color: #cc9966;
+}
+
+#content{
+	float: left;
+	width: 970px;
+	padding: 0 0 10px;
+	background: #000000 url() no-repeat left bottom;
+}
+
+.main{
+	float: left;
+	margin: 10px 0 0 0;
+	display: inline;
+	width: 640px;
+}
+
+.post{
+	margin: 10px 0 0 10px;
+}
+
+.post-date, .sidebar ul li .sidebar-title{
+	padding: 8px 20px 8px 26px;
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 11px;
+	background: #000000 url() no-repeat;
+	color: #cc9966;
+}
+
+.post h2{
+	border-bottom: 1px solid #000000;
+	padding: 14px 10px 11px;
+	font-family: Georgia, Arial, Helvetica, Sans-serif;
+	font-size: 24px;
+	background: #000000 url() no-repeat;
+	color: #cc9966;
+}
+
+.post h2 a{
+	text-decoration: none;
+	color: #cc9966;
+}
+
+.post h2 a:hover{
+	text-decoration: underline;
+}
+
+.entry{
+	padding: 0 10px 8px;
+	line-height: 20px;
+	background: #000000  url() no-repeat left bottom;
+}
+
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h6{
+	margin: 0;
+	padding: 12px 0 0;
+	border: 0;
+	font-family: Verdana, Arial, Helvetica, Georgia, Sans-serif;
+	background-image: none;
+	background-color: transparent;
+}
+
+.entry h1, .entry h2, .entry h3{
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.entry h2{
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.entry h3{
+	font-size: 10px;
+	line-height: 10px;
+}
+
+.entry img.alignleft, .entry img.alignright{
+	margin: 5px 10px 0 0;
+	padding: 4px;
+	border: 1px solid #000000;
+}
+
+.entry img.alignright{
+	margin: 5px 0 0 10px;
+}
+
+.entry img.centered{
+	margin: 0 auto;
+	display: block;
+}
+
+.entry .moretext{
+	padding: 0 23px 0 0;
+	background: url() no-repeat 100% 3px;
+	text-decoration: none;
+}
+
+.postmetadata{
+	float: left;
+	width: 610px;
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	clear: both;
+}
+
+.postmetadata a{
+	text-decoration: none;
+	color: #cc9966;
+}
+
+.postmetadata a:hover{
+	text-decoration: underline;
+}
+
+.postmetadata ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 10px 0 10px;
+}
+
+.postmetadata ul li{
+	float: left;
+	margin: 0 10px 0 0;
+	display: inline;
+}
+
+.postmetadata ul li.author{
+	padding: 0 0 0 20px;
+	background: url() no-repeat 0 4px;
+}
+
+.postmetadata ul li.comment-number{
+	padding: 0 0 0 19px;
+	background: url() no-repeat 0 4px;
+}
+
+.filedunder{
+	clear: both;
+}
+
+.previous-next{
+	float: left;
+	width: 630px;
+	display: inline;
+	margin: 10px 0 0 10px;
+	background: #cc9966 url() no-repeat left bottom;
+}
+
+.previous-next a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #cc9966;
+}
+
+.previous-next a:hover{
+	text-decoration: underline;
+}
+
+.previous-next ul{
+	float: left;
+	width: 630px;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 0;
+	line-height: 24px;
+	background: url() no-repeat;
+}
+
+.previous-next ul li{
+	float: left;
+	margin: 0 10px;
+	display: inline;
+}
+
+.previous-next ul li .previous{
+	padding: 0 0 0 20px;
+	background: url() no-repeat;
+}
+
+.previous-next ul li .next{
+	padding: 0 20px 0 0;
+	background: url() no-repeat right top;
+}
+
+.sidebar{
+	float: left;
+	display: inline;
+	width: 310px;
+	margin: 10px 0 0 10px;
+}
+
+.sidebar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar ul li{
+	margin: 10px 0 0; 
+	background: #000000 url() no-repeat left bottom;
+}
+
+.sidebar ul li .sidebar-title{
+	background: #000000 url() no-repeat;
+
+}
+
+.sidebar ul ul{
+	padding: 0 10px 10px;
+	background: url() no-repeat;
+}
+
+.sidebar ul ul li{
+	margin: 0;
+	padding: 0 0 8px;
+	background: url() no-repeat left bottom;
+}
+
+.sidebar ul ul li h2{
+	padding: 14px 10px 11px;
+	font-family: Georgia, Arial, Helvetica, Sans-serif;
+	font-size: 20px;
+	color: #cc9966;
+}
+
+.sidebar ul ul ul{
+	line-height: 24px;
+	padding: 5px 10px 0;
+	background: #000000 url() no-repeat;
+}
+
+.sidebar ul ul ul li{
+	padding: 0;
+	background-image: none;
+}
+
+.sidebar ul ul ul ul{
+	padding: 0 10px;;
+	background-image: none;
+}
+
+
+
+/* Start Widget Styles */
+
+.sidebar li#search form#searchform{
+	padding: 5px 0 0;
+}
+
+div#calendar_wrap{
+	padding: 10px;
+	background: #000000 url() no-repeat;
+}
+
+table#wp-calendar{
+	width: 100%;
+}
+
+table#wp-calendar th, table#wp-calendar td{
+	padding: 6px 0 0;
+}
+
+.sidebar ul li#google-search div{
+	margin: 0;
+	padding: 10px 10px 0;
+	text-align: left;
+	background: #000000 url() no-repeat;
+}
+
+/* End Widget Styles */
+
+
+
+#footer{
+	float: left;
+	width: 970px;
+	line-height: 22px;
+	padding: 10px 0;
+	font-size: 11px;
+	color: #cc9966;
+}
+
+#footer a{
+	color: #cc9966;
+}
+
+#footer p{
+	margin: 0 0 0 20px;
+	padding: 10px 0 0;
+}
+
+#footer p.skipback{
+	padding: 0 0 0 19px;
+	background: url() no-repeat 0 8px;
+}
+
+.comments-template{
+	margin: 10px 0 0 10px;
+	line-height: 22px;
+	background: #000000 url() no-repeat left bottom;
+}
+
+.comments-template-wrap{
+	padding: 10px;
+	background: url() no-repeat;
+}
+
+.comments-template h3{
+	font-family: Georgia, Arial, Helvetica, Sans-serif;
+	font-size: 18px;
+}
+
+.comments-template p.nocomments{
+	padding: 0;
+}
+
+.comments-template h3#comments{
+	padding: 0 0 0 21px;
+	background: url() no-repeat 0 3px;
+}
+
+ol.commentlist{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 0 20px;
+}
+
+ol.commentlist li{
+	margin: 10px 0 0;
+	padding: 10px;
+}
+
+ol.commentlist li.alt{
+	background: #000000;
+}
+
+ol.commentlist li.highlighted{
+	border: 1px solid #000000;
+	padding: 9px;
+}
+
+ol.commentlist li .author-link{
+	padding: 0 10px 8px;
+}
+
+ol.commentlist li cite{
+	font-style: normal;
+}
+
+ol.commentlist li .author-link a{
+	font-weight: bold;
+}
+
+ol.commentlist li .comment-text{
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding: 0 0 10px;
+}
+
+ol.commentlist li .comment-text p{
+	padding: 15px 10px 0;
+}
+
+small.commentmetadata{
+	display: block;
+	padding: 8px 10px 0;
+	font-size: 11px;
+	clear: both;

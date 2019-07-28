@@ -1,0 +1,322 @@
+/* Gral */
+@font-face {
+	font-family: 'Conv_AvenirNextLTPro-UltLtCn';
+	src: url('fonts/AvenirNextLTPro-UltLtCn.eot');
+	src: local('☺'), url('fonts/AvenirNextLTPro-UltLtCn.woff') format('woff'), url('fonts/AvenirNextLTPro-UltLtCn.ttf') format('truetype'), url('fonts/AvenirNextLTPro-UltLtCn.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_AvenirNextLTPro-MediumCn';
+	src: url('fonts/AvenirNextLTPro-MediumCn.eot');
+	src: local('☺'), url('fonts/AvenirNextLTPro-MediumCn.woff') format('woff'), url('fonts/AvenirNextLTPro-MediumCn.ttf') format('truetype'), url('fonts/AvenirNextLTPro-MediumCn.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_AvenirNextLTPro-Cn';
+	src: url('fonts/AvenirNextLTPro-Cn.eot');
+	src: local('☺'), url('fonts/AvenirNextLTPro-Cn.woff') format('woff'), url('fonts/AvenirNextLTPro-Cn.ttf') format('truetype'), url('fonts/AvenirNextLTPro-Cn.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.light{font-family: 'Conv_AvenirNextLTPro-UltLtCn'}
+.medium{font-family: 'Conv_AvenirNextLTPro-MediumCn'}
+.condensed{font-family: 'Conv_AvenirNextLTPro-Cn'}
+
+.size-18{ font-size: 18px }
+
+.f-6{ font-size: 6rem }
+
+.white{ color: #fff !important }
+.red{ color: #c6252c }
+.dark{ color: #231f20 }
+.gray{ color: #414042 }
+.yellow{ color: #ffc818 }
+
+.bg-yellow{ background-color: #ffc818 }
+.bg-gray{ background-color: #6d6e71 }
+.bg-white{ background-color: rgba(255,255,255,.6) }
+
+/* Button */
+.btn-default{
+	background-color: #ffde52;
+	border-radius: 0
+}
+
+	.btn-default:hover{
+		background-color: #6d6e71;
+		color: #ffc818
+	}
+
+/* Spacing */
+.space-50{height: 50px}
+.space-80{height: 80px}
+.space-120{height: 120px}
+
+/* Background */
+.bg{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+.bg-top-home{background-image: url('../images/landing/home_01.jpg')}
+.bg-top-home-1{background-image: url('../images/landing/home_02.jpg')}
+.bg-choose{background-image: url('../images/landing/que-incluye.jpg')}
+.bg-funciona{background-image: url('../images/landing/como-funciona.jpg')}
+.bg-function{background-image: url('../images/landing/bg-funciona.jpg')}
+.bg-footer{background-image: url('../images/landing/bg-footer.jpg')}
+.bg-form-footer{background-image: url('../images/landing/form-footer.jpg')}
+
+/* Servicios */
+#servicios{
+	background-image: url(../images/servicios.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 0
+}
+
+.bg-choose{
+	background-image: url(../images/banner_01.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 0
+}
+
+.bg-function{
+	background-image: url(../images/banner_02.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 0
+}
+
+.bg-funciona{
+	background-image: url(../images/banner_02.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 0
+}
+
+/* Titles */
+h1.title{ font-size: 5rem }
+h2.title{ font-size: 4rem }
+
+.shadow{text-shadow: 2px 2px 5px rgba(0,0,0,.5)}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	list-style: none;
+	margin-bottom: 0;
+	padding: 0
+}
+
+.flex li{
+	flex-grow: 3;
+	flex-basis: 30%;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 25px;
+	position: relative;
+	margin-bottom: 25px;
+	line-height: 20px
+}
+
+.flex li::before{
+	background-color: #ffc818;
+	content: "";
+	height: 7px;
+	left: 0;
+	position: absolute;
+	top: 10px;
+	width: 4px;
+}
+
+.input-list{
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+	.input-list li{
+		display: inline-block;
+		font-family: 'Conv_AvenirNextLTPro-Cn';
+		width: 45%
+	}
+
+	.input-list li span{
+		display: inline-block;
+		padding: 0 15px;
+		vertical-align: middle;
+	}
+
+form .form-control{
+	background-color: transparent;
+	border: solid 1px #fff;
+	border-radius: 0px
+}
+
+/* Button */
+.btn-default{
+	background-color: #231f20;
+	border-radius: 0
+}
+
+	.btn-default:hover{
+		background-color: #6d6e71;
+		color: #ffc818
+	}
+
+/* Spacing */
+.space-50{height: 50px}
+.space-80{height: 80px}
+.space-120{height: 120px}
+
+/* Nabvar */
+.navbar{background-color: rgba(0,0,0,.2)}
+.nav-item > a{
+	color: #fff;
+	font-family: 'Conv_AvenirNextLTPro-MediumCn';
+	font-size: 18px;
+	padding: 0 3rem !important;
+	text-transform: uppercase;
+}
+
+.navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Carousel */
+.carousel-caption{
+	text-align: left; !important;
+	left: 0 !important;
+	top: 0 !important;
+	padding-left: 2.5rem;
+	width: 100%;
+}
+
+#carouselChoose .carousel-caption h3{ font-size: 3rem }
+
+.carousel-control-prev.carusel-down{
+	height: 50px;
+    top: 85%;
+}
+
+.carousel-control-next.carusel-down{
+	height: 50px;
+	top: 85%;
+	left: 10%;
+}
+
+.carousel-control-prev.left{left: 40%}
+
+.slide-choose{padding: 0}
+
+/* Responsive */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 1024px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+	
+	#logo{width: 50%}
+
+    #home{margin-top: 90px}
+
+    h1.title{ font-size: 4rem }
+
+    /* Spacing */
+	.space-50{height: 0px}
+	.space-80{height: 0px}
+
+	.carousel-caption{
+		background-color: rgba(0,0,0,.3);
+		height: 100%
+	}
+
+	#carouselChoose .carousel-caption h5{ font-size: 2.5rem }
+
+	.f-6{font-size: 4.5rem}
+
+	.input-list li{width: 100%}
+
+	.logo{
+		padding: 15px !important;
+		width: 35%
+	}
+
+	.carousel-caption .jumbotron{
+		padding: 55px 0 0 !important;
+		margin: 0 !important
+	}
+	.carousel-caption .jumbotron h1{
+		padding: 0 !important;
+		margin: 0 !important;
+		font-size: 36px
+	}
+
+}
+
+/**
+**
+** CERCOS 
+**
+***/
+.logo{
+	top:0;
+	left: 0;
+	z-index: 99
+}
+
+.bg-black{background-color: #000000}
+.bg-yellow{background-color: #ffc818}
+
+.jumbotron{background-color: rgba(255,255,255,.0)}
+
+.social{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	list-style: none;
+	margin-bottom: 0;
+	padding: 0
+}
+
+.social li{
+	/*flex-basis: 30%;*/
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 20px;
+	/*position: relative;
+	margin-bottom: 25px;
+	line-height: 20px*/
+}
+
+.social li a{color: #ffc818}
+
+/**
+**
+** CAMARAS 
+**
+***/
+.camara-list{
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+	.camara-list input[type=checkbox]{
+		background-color: #000;
+	}
